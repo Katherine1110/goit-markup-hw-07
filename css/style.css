@@ -1,0 +1,17 @@
+:root {
+    --main-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-text-color: #2196F3;
+    --caption-text-color: #FFFFFF;
+}
+
+.navigation, .contacts {
+    color: var(--title-text-color);
+}
+
+.navigation .navigation-link:hover,
+.navigation .navigation-link:focus,
+.contacts .contacts-link:hover,
+.contacts .contacts-link:focus {
+    color: var(--accent-text-color);
+}
